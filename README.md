@@ -1,4 +1,4 @@
-# Method of calculating Coulomb potential
+# Method of calculating Coulomb potential on lattice
 Charge distribution $e\rho(\mathbf{r})$:
 $$\nabla^2 \Phi(\mathbf{r})=4 \pi e^2 \rho(\mathbf{r})$$
 $$\Phi(\mathbf{r})=\int d^3 r^{\prime} \frac{e^2 \rho\left(\mathbf{r}^{\prime}\right)}{\left|\mathbf{r}-\mathbf{r}^{\prime}\right|}$$
