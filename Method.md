@@ -16,4 +16,4 @@ Fourier transform of given potential is:
 $$f(k)=4 \pi \frac{1-\cos \left(k \sqrt{\left.L_x^2+L_y^2+L_z^2\right)}\right.}{k^2}$$
 and one gets:
 $$\Phi(\mathbf{r})=\int \frac{d^3 k}{(2 \pi)^3} \frac{e^2 \rho(\vec{k})}{k^2} \exp (i \vec{k} \cdot \mathbf{r})=\frac{1}{27 N_x N_y N_z} \sum_{\vec{k} \in L_x L_y L_z} e^2 \rho(\vec{k}) f(k) \exp (i \vec{k} \cdot \mathbf{r})$$
-Where $\rho{\vec{k}}$ is the Fourier transformed density on the lattice $27L_xL_yL_z$
+Where $\rho(\vec{k})$ is the Fourier transformed density on the lattice $27L_xL_yL_z$
