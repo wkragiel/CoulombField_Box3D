@@ -5,7 +5,7 @@ $$\Phi(\mathbf{r})=\int d^3 r^{\prime} \frac{e^2 \rho\left(\mathbf{r}^{\prime}\r
 <ins>Note:</ins> $\Phi$ is defined as $e\Phi$. \
 After Fourier transform one gets:
 $$\Phi(\mathbf{r})=\int \frac{d^3 k}{(2 \pi)^3} \frac{e^2 \rho(\vec{k})}{k^2} \exp (i \vec{k} \cdot \mathbf{r})$$
-However, working on the lattice, above formula generates undesirable interaction with neighbouring cells. To avoid that problem, one should define the modified potential:
+However while working on the lattice, above formula generates undesirable interaction with neighbouring cells. To avoid that problem, one should define the modified potential:
 
 $$f(r) = \begin{cases}
 \dfrac{1}{r}, & \text{if r }  < \sqrt{L_x^2+L_y^2+L_z^2} \\
